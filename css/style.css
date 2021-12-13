@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #f8e1db;
+  padding: 10px 50px;
+}
+
+.nav ul {
+  margin-top: 10px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: green;
+}
+
+/* CAROUSEL */
+.carousel {
+  position: relative;
+  background-color: #faf5f2;
+}
+
+.carousel__img {
+  background-image: url(../images/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 100px 100px;
+}
+
+.carousel__img--height {
+  height: 550px;
+}
+
+.carousel-content {
+  display: flex;
+  position: absolute;
+  bottom: -50px;
+  padding: 0 10px;
+}
+
+.carousel-item {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.carousel-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.carousel__item--title {
+  color: #8e908e;
+}
+
+.carousel__item--desc {
+  color: #d4d4d4;
+  font-size: 0.875rem;
+}
+
+/* ACTIVITY */
+.activity {
+  background-color: #faf5f2;
+  padding-top: 100px;
+}
+
+.activity__title {
+  text-align: center;
+  color: #969495;
+}
+
+.activity__title p {
+  font-weight: bold;
+}
+
+.activity__content {
+  display: flex;
+}
+
+.activity__item {
+  width: 25%;
+  padding: 10px;
+}
+
+.activity__card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+.activity__image {
+  position: relative;
+}
+
+.activity__image img {
+  width: 100%;
+}
+
+.activity__heart i {
+  color: orangered;
+}
+
+.activity__heart {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 40px;
+  border-radius: 7px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.activity__intro {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.activity__intro .intro__subtitle {
+  color: #8e908e;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.activity__intro button {
+  border-radius: 20px;
+  width: 150px;
+  padding: 10px 0;
+  border: none;
+  margin-top: 20px;
+  color: #8e908e;
+}
+
+.activity__view {
+  padding: 20px 0;
+}
+
+.activity__view button {
+  color: orangered;
+  border: 1px solid orangered;
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #faf5f2;
+}
+
+/* CONTACT */
+.contact {
+  display: flex;
+  background-image: url(../images/mask.png);
+  height: 350px;
+  background-color: #f8e1db;
+}
+
+.contact__left {
+  width: 50%;
+}
+
+.contact__right {
+  width: 50%;
+  padding: 30px;
+}
+.contact__right h1 {
+  color: #9d918b;
+}
+.contact__right p {
+  color: #bbaeaf;
+}
